@@ -1,0 +1,277 @@
+[
+    {
+        "constant": true,
+        "inputs": [],
+        "name": "owner",
+        "outputs": [
+            {
+                "type": "address"
+            }
+        ],
+        "payable": false,
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "constant": true,
+        "inputs": [],
+        "name": "unknownab366292",
+        "outputs": [
+            {
+                "type": "uint256"
+            }
+        ],
+        "payable": false,
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "constant": true,
+        "inputs": [
+            {
+                "name": "_param1",
+                "type": "uint256"
+            }
+        ],
+        "name": "unknown0e48606b",
+        "outputs": [
+            {
+                "type": "uint256"
+            }
+        ],
+        "payable": false,
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "constant": false,
+        "inputs": [],
+        "name": "renounceOwnership",
+        "outputs": [],
+        "payable": false,
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "constant": false,
+        "inputs": [
+            {
+                "name": "_newOwner",
+                "type": "address"
+            }
+        ],
+        "name": "transferOwnership",
+        "outputs": [],
+        "payable": false,
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "constant": true,
+        "inputs": [],
+        "name": "unknown65057350",
+        "outputs": [
+            {
+                "type": "uint256"
+            }
+        ],
+        "payable": false,
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "constant": true,
+        "inputs": [
+            {
+                "name": "_param1",
+                "type": "address"
+            }
+        ],
+        "name": "unknownc7450462",
+        "outputs": [
+            {
+                "type": "uint256"
+            }
+        ],
+        "payable": false,
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "constant": true,
+        "inputs": [
+            {
+                "name": "_param1",
+                "type": "address"
+            },
+            {
+                "name": "_param2",
+                "type": "uint256"
+            }
+        ],
+        "name": "unknownae4f4df1",
+        "outputs": [
+            {
+                "components": [
+                    {
+                        "name": "field_0",
+                        "type": "bool"
+                    },
+                    {
+                        "name": "field_8",
+                        "type": "bool"
+                    },
+                    {
+                        "name": "field_512",
+                        "type": "uint256"
+                    },
+                    {
+                        "name": "field_768",
+                        "type": "uint256"
+                    },
+                    {
+                        "name": "field_1024",
+                        "type": "uint256"
+                    },
+                    {
+                        "name": "field_1280",
+                        "type": "address"
+                    }
+                ],
+                "name": "",
+                "type": "tuple"
+            }
+        ],
+        "payable": false,
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "constant": false,
+        "inputs": [
+            {
+                "name": "_param1",
+                "type": "address"
+            },
+            {
+                "name": "_param2",
+                "type": "uint256"
+            },
+            {
+                "name": "_param3",
+                "type": "uint256"
+            },
+            {
+                "name": "_param4",
+                "type": "bytes"
+            }
+        ],
+        "name": "unknown0511a506",
+        "outputs": [],
+        "payable": true,
+        "stateMutability": "payable",
+        "type": "function"
+    },
+    {
+        "constant": false,
+        "inputs": [
+            {
+                "name": "_param1",
+                "type": "uint256"
+            }
+        ],
+        "name": "unknown6cda375b",
+        "outputs": [],
+        "payable": false,
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "constant": false,
+        "inputs": [
+            {
+                "name": "_tokenId",
+                "type": "uint256"
+            }
+        ],
+        "name": "unlockToken",
+        "outputs": [],
+        "payable": false,
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "constant": true,
+        "inputs": [
+            {
+                "name": "_param1",
+                "type": "address"
+            }
+        ],
+        "name": "tokenBalance",
+        "outputs": [
+            {
+                "type": "uint256"
+            }
+        ],
+        "payable": false,
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "payable": false,
+        "stateMutability": "nonpayable",
+        "type": "constructor"
+    },
+    {
+        "payable": true,
+        "stateMutability": "payable",
+        "type": "fallback"
+    },
+    {
+        "anonymous": false,
+        "inputs": [
+            {
+                "indexed": false,
+                "name": "previousOwner",
+                "type": "address"
+            }
+        ],
+        "name": "OwnershipRenounced",
+        "type": "event"
+    },
+    {
+        "anonymous": false,
+        "inputs": [
+            {
+                "indexed": false,
+                "name": "previousOwner",
+                "type": "address"
+            },
+            {
+                "indexed": false,
+                "name": "newOwner",
+                "type": "address"
+            }
+        ],
+        "name": "OwnershipTransferred",
+        "type": "event"
+    },
+    {
+        "constant": false,
+        "inputs": [
+            {
+
+                "name": "vaultId",
+                "type": "uint256"
+            }
+        ],
+        "name": "unlockToken",
+        "outputs": [],
+        "payable": false,
+        "stateMutability": "nonpayable",
+        "type": "function"
+    }
+
+]
